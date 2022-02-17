@@ -1,0 +1,57 @@
+.person-section {
+  width: 500px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.person-div {
+  width: 400px;
+}
+.person-ul {
+  border-radius: 6px;
+
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #155765;
+  border: #ed9121 solid 3px;
+}
+.person-ul li {
+  max-width: 100%;
+  text-align: left;
+  list-style: none;
+  margin-top: 10px;
+  box-sizing: border-box;
+  padding: 0 10px 10px 10px;
+  color: #ed9121;
+}
+.person-div h3 {
+  max-width: 100%;
+  margin-top: 15px;
+}
+.person-button {
+  cursor: pointer;
+  width: 130px;
+  margin-bottom: 14px;
+  height: 38px;
+  border-radius: 3px;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #ed9121;
+  color: #015249;
+}
+
+.person-button:hover {
+  box-shadow: 0 0 10px #ed9121, 0 0 10px #ed9121;
+  transition: ease-in 0.5s;
+  background-color: transparent;
+  color: #ed9121;
+}
+.person-button:active {
+  box-shadow: 0 0 15px #ed9121, 0 0 20px #ed9121;
+  font-size: 16px;
+  transition: 0.1s;
+}
